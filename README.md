@@ -7,12 +7,17 @@ BUILD STATUS: IN PROGRESS
 ============================================
 
 I've come to inherit an old project from FB market place which was free when I bought a used ender 3 (05/13/2021).
-He said he was planning to transfer the electronics parts on the E3 to the BLV MGN Frame and take it from there. Unfortunately he lost the bed that came with the kit and the project was put on hold. His wife got fed up that his project was just taking up space in their home so he had to let it go. 
+He said he was planning to transfer the electronics parts on the E3 to the BLV MGN Frame and take it from there. 
+Unfortunately he lost the bed that came with the kit and the project was put on hold. 
+His wife got fed up that his project was just taking up space in their home so he had to let it go. 
 
-Here's the BOM when I got the kit.
+</pre>
 
 ![image](https://user-images.githubusercontent.com/85612975/217283968-1fb5ded9-ec86-429c-8207-0e14b95588f8.png)
 
+<pre>
+
+Here's the BOM when I got the kit.
 Extrusions: Full BLV Frame All metal kit from AliExpress (url https://www.aliexpress.us/item/2255801095103872.html?spm=a2g0o.productlist.main.111.a67a516934a58A&algo_pvid=694ec4a6-d118-4e1b-82b6-2a246fdb2c44&algo_exp_id=694ec4a6-d118-4e1b-82b6-2a246fdb2c44-55&pdp_ext_f=%7B%22sku_id%22%3A%2210000015591032066%22%7D&pdp_npi=2%40dis%21USD%21307.43%21307.43%21%21%21%21%21%4021224e9b16751041953849000d0666%2110000015591032066%21sea&curPageLogUid=wZVW1dkNe8kX&gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US)
 Mobo: BTT SKR Mini E3 v1.2
 ABL: Inductive Proximity Probe
@@ -60,6 +65,6 @@ https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%
 
 Sources: 
 https://www.ifixit.com/Device/BLV_MGN_Cube by armysolo in discord
-
+https://www.blvprojects.com/blv-mgn-cube-3d-printer
 
 </pre>
