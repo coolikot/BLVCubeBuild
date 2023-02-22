@@ -42,7 +42,20 @@ Ordered Parts:
 Arrived:
 02/08/2023 - Meanwell LR350 24v () 
 02/08/2023 - 310x310mm Aluminum HotBed, no 350mm available at my end that was cheap and fast.
-
+ - Silicon Bed spacer
+ - M3x35mm bed screw
+ - Dual Z Adapter Board
+ - Bed Insulation
+ - Magnetic PEI Spring Steel Sheet textured
+ - PEI Sheet smooth 
+ - 5x 400mm Linear Rails
+ - SSR 040DA
+ - EP2 Grease for Lead Screw
+ - Optical End Switch
+ - Cable Sleeve
+ - DIN Rail
+02/19/2023 - Frame is Built but chains are grinding. refitted gear teeth height.
+02/20/2023 - All parts have arrived aside from the PEI Spring steel sheet plate
 
 As per testing the bed was work but found out that the SKR Mini E3 Board I got has a broken mosfet in the FAN0.
 
@@ -62,6 +75,53 @@ https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/238
 SKR mini E3 v1.2 manual
 ([BTT SKR MINI E3 V1.2manual.pdf](https://github.com/coolikot/BLVMGNCube_Build/files/10678599/BTT.SKR.MINI.E3.V1.2manual.pdf))
 https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V1.2/BTT%20SKR%20MINI%20E3%20V1.2manual.pdf
+
+Will still try to fix said SKR Mini E3 v1.2 but for now will run the config below
+
+XY Endstop : Optical Endswitch
+Z Endstop : BL Touch
+Extruder : Orig BMG will convert to Orbiter 2.0 with filament Runout sensor
+Motherboard : SKR Mini E3 V3.0
+Hotend : V6 Clone will upgrade to Phaetus Dragon once proper thermistor/heating cartridge arrive
+ToolHead : Minimalistic Fan Duct in DD Config
+
+02/20/2023 : All built and moving figuring out the firmware. Currently getting dragged when trying to home
+02/21/2023 : Figured out what's causing the drag, the BTT SKR mini E3 V3 official firmware is causing it. Made my own marlin config everything is now okay.
+02/22/2023 : Bed offsets are properly configured, as I am using at 310x310mm bed instead of 350x350.
+Firmware Guide: 
+Home Offset Explanation: https://www.youtube.com/watch?v=8MQRxBISYmU
+CoreXY Marlin Setup : https://www.youtube.com/watch?v=tK_YqSbDpZ4&
+
+Additional Print Parts: 
+LCD: https://www.printables.com/model/189754-ender-5-rotatable-lcd-holder-with-lcd-cover/files
+
+
+Things left to do.
+***Wiring harness to be done (2meter)
+1.) Fans:
+HotEnd Fan
+Fan1
+Fan2
+2.) 5V YSplit for Optical EndSwitch
+3.) Change Thermistor end port connection to 2PIN JST
+4.) BLTouch extender to 5Pin JST
+5.) Endstop Switches from dupont to 2PIN JST
+6.) Change XYZZ Motor Connectors from Dupont to 6pin JST
+***Wiring
+***Filament Holder
+***Tuning
+***PANELS?
+
+Design/Find Models for:
+Make PSU Cover with Switch and Plug Control
+Make Mobo Mount
+Make LCD Mount
+Cable Chains
+Removable Bed stops
+Bed Cable Support
+
+
+To add: Built in eibos filament dryer.
 
 Sources: 
 https://www.ifixit.com/Device/BLV_MGN_Cube by armysolo in discord
