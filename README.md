@@ -78,6 +78,23 @@ https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%
 
 Will still try to fix said SKR Mini E3 v1.2 but for now will run the config below
 
+02/25/2023 SKR Mini E3 v1.2 Troubleshooting 
+-Replaced Mosfet with IRLML6344TR but still not working.
+-Followed trace and voltage readings with SKR Mini E3 V3 shows that Pin 8 - Fan0 and Pin 9 - Fan0 PWM does not provide proper voltages
+-Hence safe to assume that Mosfet Controller 
+</pre>
+
+![332646703_1680016732415495_4960941776798151138_n](https://user-images.githubusercontent.com/85612975/221406621-4d42990c-2461-42c0-a9d4-fc53ac96ac6a.png)
+
+SKR Mini E3 v1.2 Mosfet Layout
+
+![332790446_8818261928246363_8332014705890271909_n](https://user-images.githubusercontent.com/85612975/221406637-5884058b-7b70-4416-9712-3633eefd9641.png)
+
+SKR Mini E3 V3.0 Mosfet Layout
+
+![328021644_894454138529228_2509355167094879250_n](https://user-images.githubusercontent.com/85612975/221406657-ca561c88-f856-4d92-b48b-e8fb44f27121.png)
+
+<pre>
 XY Endstop : Optical Endswitch
 Z Endstop : BL Touch
 Extruder : Orig BMG will convert to Orbiter 2.0 with filament Runout sensor
@@ -102,23 +119,37 @@ Things left to do.
 HotEnd Fan
 Fan1
 Fan2
-2.) 5V YSplit for Optical EndSwitch
-3.) Change Thermistor end port connection to 2PIN JST
-4.) BLTouch extender to 5Pin JST
-5.) Endstop Switches from dupont to 2PIN JST
+2.) 5V YSplit for Optical EndSwitch - done 02/24/2023
+3.) Change Thermistor end port connection to 2PIN JST - done 02/24/2023
+4.) BLTouch extender to 5Pin JST 
+5.) Endstop Switches from dupont to 2PIN JST - done 02/24/2023
 6.) Change XYZZ Motor Connectors from Dupont to 6pin JST
+
 ***Wiring
 ***Filament Holder
 ***Tuning
 ***PANELS?
 
 Design/Find Models for:
-Make PSU Cover with Switch and Plug Control
-Make Mobo Mount
+Make PSU Cover with Switch and Plug Control - done 02/24/2023
+Make Mobo Mount - done 02/24/2023
 Make LCD Mount
 Cable Chains
-Removable Bed stops
+Removable Bed stops - done 02/23/2023
 Bed Cable Support
+
+To Print: 
+LEDs Horizontal : https://www.thingiverse.com/thing:3675107
+LEDs Vertical : https://www.thingiverse.com/thing:3581540
+Spool Holder : https://www.thingiverse.com/thing:4772137/files
+Mobo Mount : https://www.printables.com/model/360257-bigtreetech-skr-mini-e3-v3-holder
+
+Remix Files: 
+PSU Mount : https://www.thingiverse.com/thing:3080538
+PSU Cover : https://www.thingiverse.com/thing:3450424
+Z Endstop : https://www.thingiverse.com/thing:2512807/files
+Bed Knob : https://www.thingiverse.com/thing:4766542
+
 
 
 To add: Built in eibos filament dryer.
